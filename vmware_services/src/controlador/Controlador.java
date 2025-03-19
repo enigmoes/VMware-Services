@@ -10,7 +10,6 @@ import modelo.Fichero;
 import vista.Ventana;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
