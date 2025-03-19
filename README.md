@@ -7,4 +7,4 @@
 #### https://github.com/DarkYnesT/VMware-Services/releases/tag/1.0.0
 
 ### Screenshot
-![alt text](https://github.com/enigmoes/VMware-Services/blob/main/screenshot.png?raw=true)
+![alt text](https://github.com/enigmoes/VMware-Services/blob/master/screenshot.png?raw=true)
