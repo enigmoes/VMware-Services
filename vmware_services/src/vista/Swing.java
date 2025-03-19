@@ -6,7 +6,6 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
