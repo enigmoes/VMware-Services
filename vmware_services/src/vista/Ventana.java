@@ -15,7 +15,6 @@ import javax.swing.JPanel;
 import javax.swing.border.MatteBorder;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
@@ -87,7 +86,7 @@ public class Ventana extends JFrame {
 		flowLayout.setAlignment(FlowLayout.RIGHT);
 		panelAutor.setMaximumSize(new Dimension(32767, 1000));
 		
-		JLabel autor = new JLabel("Autor: Joel Cubero");
+		JLabel autor = new JLabel("© Enigmo");
 		panelAutor.add(autor);
 		
 		contenedor.add(panelAutor);		
