@@ -9,7 +9,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
