@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
