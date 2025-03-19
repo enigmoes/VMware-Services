@@ -5,7 +5,6 @@ import javax.swing.UIManager;
 import controlador.Controlador;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
