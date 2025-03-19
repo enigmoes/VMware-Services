@@ -10,7 +10,6 @@ import java.awt.Component;
 import javax.swing.SwingConstants;
 
 /**
- * @author Joel Cubero
  * @version 1.0 08/09/2017
  */
 
