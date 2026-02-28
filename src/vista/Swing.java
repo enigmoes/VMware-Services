@@ -6,9 +6,10 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 
 /**
- * @version 1.0 08/09/2017
+ * Panel para centrar ventana en pantalla
+ * 
+ * @version 2.0
  */
-
 public class Swing {
 	
 	/**
@@ -16,7 +17,6 @@ public class Swing {
 	 * argumento que recibira el parametro ventana.
 	 * @param ventana
 	 */
-	
 	public static void centrar(JFrame ventana) {
 		// Obtener las medidas de la pantalla
 		Dimension medidaPantalla = Toolkit.getDefaultToolkit().getScreenSize();

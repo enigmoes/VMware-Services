@@ -9,16 +9,17 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /**
- * @version 1.0 08/09/2017
+ * Panel para pintar imagen
+ * 
+ * @version 2.0
  */
-
 public class PanelImagen extends JPanel {
-	//Atributos
+	// Atributos
 	private static final long serialVersionUID = 1L;
 	private ImageIcon imagen;
 	private Image fondo;
 	
-	//Constructor
+	// Constructor
 	public PanelImagen() {
 		this.setLayout(new BorderLayout());
 		imagen = new ImageIcon(getClass().getResource("/images/vms_100.png"));
@@ -29,7 +30,7 @@ public class PanelImagen extends JPanel {
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		//Pintamos la imagen centrada, es decir, (cogemos el tamaño del panel y el tamaño de la imagen y dividimos entre 2)
+		// Pintamos la imagen centrada, es decir, (cogemos el tamaño del panel y el tamaño de la imagen y dividimos entre 2)
 		g.drawImage(fondo, (this.getWidth() - imagen.getIconWidth()) / 2, (this.getHeight() - imagen.getIconHeight()) / 2, 
 				imagen.getIconWidth(), imagen.getIconHeight(), this);
 	}
