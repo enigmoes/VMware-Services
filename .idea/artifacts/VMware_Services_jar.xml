@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VMware-Services:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VMware_Services_jar</output-path>
+    <root id="archive" name="VMware-Services.jar">
+      <element id="module-output" name="VMware-Services" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/flatlaf/flatlaf-3.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna/jna-5.18.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna/jna-platform-5.18.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
