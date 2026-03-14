@@ -1,10 +1,15 @@
-## VMware Services (Windows) 
-### VMware Services
+## VMware Services (Windows)
 
-#### Aplicacion para iniciar y para los servicios de vmware player con un solo clic! (Solo para windows)
+Aplicación para iniciar y detener los servicios de VMware Player con un solo clic. Solo para Windows.
 
-#### Descarga:
-#### https://github.com/DarkYnesT/VMware-Services/releases/tag/1.0.0
+### Descarga
+**[VMware-Services-v2.0.0.zip](https://github.com/enigmoes/VMware-Services/releases/download/2.0.0/VMware-Services-v2.0.0.zip)**
+
+1. Descarga y descomprime el zip en cualquier carpeta
+2. Ejecuta `VMware-Services.exe` (pedirá permisos de administrador)
+3. No necesitas tener Java instalado
+
+> Requiere Windows 10 / 11 x64 y VMware Player instalado
 
 ### Screenshot
-![alt text](https://github.com/enigmoes/VMware-Services/blob/master/screenshot.png?raw=true)
+![Screenshot](https://github.com/enigmoes/VMware-Services/blob/master/screenshot.png?raw=true)
