@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>C:\PWA\VMware-Services\out\artifacts\VMware_Services_jar\VMware-Services.jar</jar>
+    <outfile>C:\PWA\VMware-Services\out\VMware-Services.exe</outfile>
+    <errTitle></errTitle>
+    <cmdLine></cmdLine>
+    <chdir>.</chdir>
+    <priority>normal</priority>
+    <downloadUrl></downloadUrl>
+    <supportUrl></supportUrl>
+    <stayAlive>false</stayAlive>
+    <restartOnCrash>false</restartOnCrash>
+    <manifest>C:\PWA\VMware-Services\admin.manifest</manifest>
+    <icon>C:\PWA\VMware-Services\src\images\vms_100.ico</icon>
+    <jre>
+        <path>jre</path>
+        <bundledJre64Bit>true</bundledJre64Bit>
+        <bundledJreAsFallback>false</bundledJreAsFallback>
+        <requiresJdk>false</requiresJdk>
+        <requires64Bit>true</requires64Bit>
+        <minVersion>21</minVersion>
+        <maxVersion></maxVersion>
+    </jre>
+</launch4jConfig>
