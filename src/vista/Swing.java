@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 /**
  * Panel para centrar ventana en pantalla
  * 
- * @version 2.0
+ * @version 2.1.0
  */
 public class Swing {
 	

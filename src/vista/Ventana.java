@@ -18,7 +18,7 @@ import javax.swing.border.MatteBorder;
 /**
  * Ventana principal
  * 
- * @version 2.0
+ * @version 2.1.0
  */
 public class Ventana extends JFrame {
 	// Atributos
@@ -37,13 +37,13 @@ public class Ventana extends JFrame {
 		crearPanelLogo();
 		crearPanelServicios();
 		crearPanelBoton();
-		crearPanelAutor();
+		crearPanelFooter();
 
 		this.setResizable(false);
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(Ventana.class.getResource("/images/vms_100.png")));
 		this.pack();
 		this.setMinimumSize(new Dimension(460, 0));
-		this.setTitle("VMware Services");
+		this.setTitle("VMware Services v2.1.0");
 		this.setVisible(true);
 		Swing.centrar(this);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -75,14 +75,14 @@ public class Ventana extends JFrame {
 		contenedor.add(panel);
 	}
 
-	// Panel footer con el autor
-	private void crearPanelAutor() {
+	// Panel footer
+	private void crearPanelFooter() {
 		JPanel panel = new JPanel();
 		panel.setBorder(new MatteBorder(1, 0, 0, 0, Color.DARK_GRAY));
 		FlowLayout fl = (FlowLayout) panel.getLayout();
 		fl.setAlignment(FlowLayout.RIGHT);
 		panel.setMaximumSize(new Dimension(32767, 1000));
-		panel.add(new JLabel("\u00a9 Enigmo"));
+		panel.add(new JLabel("\u00a9 Enigmo \u00b7 v2.1.0"));
 		contenedor.add(panel);
 	}
 
